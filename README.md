@@ -41,16 +41,23 @@ The analysis covers:
 
 ## 📈 Visualizations
 
-| Chart | Description |
-|---|---|
-| 📉 Monthly Revenue Trend | Revenue over time with area fill — reveals seasonality |
-| 🌍 Top 10 Countries by Revenue | Horizontal bar chart excluding UK |
-| 📦 Top 10 Best-Selling Products | Units sold per product |
-| 📅 Revenue by Day of Week | Which weekday performs best |
-| 🕐 Revenue by Hour of Day | Peak shopping hours throughout the day |
-| 👤 Top 10 Customers by Revenue | Highest spending customers |
+### Monthly Revenue Trend
+![Monthly Revenue](outputs/monthly_revenue.png)
 
-All charts saved to `outputs/` as high-resolution PNG files.
+### Top 10 Countries by Revenue
+![Top Countries](outputs/top_countries.png)
+
+### Top 10 Best-Selling Products
+![Top Products](outputs/top_products.png)
+
+### Revenue by Day of Week
+![Day of Week](outputs/day_of_week.png)
+
+### Revenue by Hour of Day
+![Hourly Sales](outputs/hourly_sales.png)
+
+### Top 10 Customers by Revenue
+![Top Customers](outputs/top_customers.png)
 
 ---
 
@@ -86,7 +93,7 @@ RetailInsight/
 
 **1. Install dependencies:**
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 **2. Download the dataset:**
